@@ -1,0 +1,95 @@
+/*!
+ * FileInput Hungarian Translations
+ *
+ * This file must be loaded after 'fileinput.js'. Patterns in braces '{}', or
+ * any HTML markup tags in the messages must not be converted or translated.
+ *
+ * @see http://github.com/kartik-v/bootstrap-fileinput
+ *
+ * NOTE: this file must be saved in UTF-8 encoding.
+ */
+(function ($) {
+    "use strict";
+
+    $.fn.fileinputLocales['hu'] = {
+        fileSingle: 'f谩jl',
+        filePlural: 'f谩jlok',
+        browseLabel: 'Tall贸z &hellip;',
+        removeLabel: 'Elt谩vol铆t',
+        removeTitle: 'Kijel枚lt f谩jlok t枚rl茅se',
+        cancelLabel: 'M茅gse',
+        cancelTitle: 'Felt枚lt茅s megszak铆t谩sa',
+        uploadLabel: 'Felt枚lt茅s',
+        uploadTitle: 'Kijel枚lt f谩jlok felt枚lt茅se',
+        msgNo: 'Nem',
+        msgNoFilesSelected: 'Nincs f谩jl kiv谩lasztva',
+        msgCancelled: 'Megszak铆tva',
+        msgZoomModalHeading: 'R茅szletes El艖n茅zet',
+        msgSizeTooSmall: 'A f谩jl: "{name}" (<b>{size} KB</b>) m茅rete t煤l kicsi, nagyobbnak kell lennie, mint <b>{minSize} KB</b>.',
+        msgSizeTooLarge: '"{name}" f谩jl (<b>{size} KB</b>) m茅rete nagyobb a megengedettn茅l <b>{maxSize} KB</b>.',
+        msgFilesTooLess: 'Legal谩bb <b>{n}</b> {files} ki kell v谩lasztania a felt枚lt茅shez.',
+        msgFilesTooMany: 'A felt枚lteni k铆v谩nt f谩jlok sz谩ma <b>({n})</b> el茅rte a megengedett maximumot <b>{m}</b>.',
+        msgFileNotFound: '"{name}" f谩jl nem tal谩lhat贸!',
+        msgFileSecured: 'Biztons谩gi be谩ll铆t谩sok nem engedik olvasni a f谩jlt "{name}".',
+        msgFileNotReadable: '"{name}" f谩jl nem olvashat贸.',
+        msgFilePreviewAborted: '"{name}" f谩jl felt枚lt茅se megszak铆tva.',
+        msgFilePreviewError: 'Hiba l茅pett fel a "{name}" f谩jl olvas谩sa k枚zben.',
+        msgInvalidFileName: 'Hib谩s vagy nem t谩mogatott karakterek a f谩jl nev茅ben "{name}".',
+        msgInvalidFileType: 'Nem megengedett f谩jl "{name}". Csak a "{types}" f谩jl t铆pusok t谩mogatottak.',
+        msgInvalidFileExtension: 'Nem megengedett kiterjeszt茅s / f谩jlt铆pus "{name}". Csak a "{extensions}" kiterjeszt茅s(ek) / f谩jlt铆pus(ok) t谩mogatottak.',
+        msgFileTypes: {
+            'image': 'image',
+            'html': 'HTML',
+            'text': 'text',
+            'video': 'video',
+            'audio': 'audio',
+            'flash': 'flash',
+            'pdf': 'PDF',
+            'object': 'object'
+        },
+        msgUploadAborted: 'A f谩jl felt枚lt茅s megszak铆tva',
+        msgUploadThreshold: 'Folyamatban...',
+        msgUploadBegin: 'Initializing...',
+        msgUploadEnd: 'Done',
+        msgUploadEmpty: 'No valid data available for upload.',
+        msgValidationError: '脡rv茅nyes铆t茅s hiba',
+        msgLoading: '{index} / {files} t枚lt茅se &hellip;',
+        msgProgress: 'Felt枚lt茅s: {index} / {files} - {name} - {percent}% k茅sz.',
+        msgSelected: '{n} {files} kiv谩lasztva.',
+        msgFoldersNotAllowed: 'Csak f谩jlokat h煤zzon ide! Kihagyva {n} k枚nyvt谩r.',
+        msgImageWidthSmall: 'A k茅p sz茅less茅g茅nek "{name}" legal谩bb {size} pixelnek kell lennie.',
+        msgImageHeightSmall: 'A k茅p magass谩g谩nak "{name}" legal谩bb {size} pixelnek kell lennie.',
+        msgImageWidthLarge: 'A k茅p sz茅less茅ge "{name}" nem haladhatja meg a {size} pixelt.',
+        msgImageHeightLarge: 'A k茅p magass谩ga "{name}" nem haladhatja meg a {size} pixelt.',
+        msgImageResizeError: 'Nem lehet meg谩llap铆tani a k茅p m茅reteit az 谩tm茅retez茅shez.',
+        msgImageResizeException: 'Hiba t枚rt茅nt a m茅retez茅s k枚zben.<pre>{errors}</pre>',
+        msgAjaxError: 'Something went wrong with the {operation} operation. Please try again later!',
+        msgAjaxProgressError: '{operation} failed',
+        ajaxOperations: {
+            deleteThumb: 'file delete',
+            uploadThumb: 'file upload',
+            uploadBatch: 'batch file upload',
+            uploadExtra: 'form data upload'
+        },
+        dropZoneTitle: 'F谩jlok h煤z谩sa ide &hellip;',
+        dropZoneClickTitle: '<br>(vagy kattintson ide a {files} tall贸z谩s谩hoz...)',
+        fileActionSettings: {
+            removeTitle: 'A f谩jl elt谩vol铆t谩sa',
+            uploadTitle: 'f谩jl felt枚lt茅se',
+            zoomTitle: 'R茅szletek megtekint茅se',
+            dragTitle: 'Mozgat谩s / 脕trendez茅s',
+            indicatorNewTitle: 'Nem felt枚lt枚tt',
+            indicatorSuccessTitle: 'Felt枚lt枚tt',
+            indicatorErrorTitle: 'Felt枚lt茅s hiba',
+            indicatorLoadingTitle: 'Felt枚lt茅s ...'
+        },
+        previewZoomButtonTitles: {
+            prev: 'El枚z艖 f谩jl megn茅z茅se',
+            next: 'K枚vetkez艖 f谩jl megn茅z茅se',
+            toggleheader: 'Fejl茅c mutat谩sa',
+            fullscreen: 'Teljes k茅perny艖s m贸d bekapcsol谩sa',
+            borderless: 'Keret n茅lk眉li ablak m贸d bekapcsol谩sa',
+            close: 'R茅szletes el艖n茅zet bez谩r谩sa'
+        }
+    };
+})(window.jQuery);

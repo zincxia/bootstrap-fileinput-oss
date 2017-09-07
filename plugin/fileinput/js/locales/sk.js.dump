@@ -1,0 +1,95 @@
+/*!
+ * FileInput Slovakian Translations
+ *
+ * This file must be loaded after 'fileinput.js'. Patterns in braces '{}', or
+ * any HTML markup tags in the messages must not be converted or translated.
+ *
+ * @see http://github.com/kartik-v/bootstrap-fileinput
+ *
+ * NOTE: this file must be saved in UTF-8 encoding.
+ */
+(function ($) {
+    "use strict";
+
+    $.fn.fileinputLocales['sk'] = {
+        fileSingle: 's煤bor',
+        filePlural: 's煤bory',
+        browseLabel: 'Vybra钮 &hellip;',
+        removeLabel: 'Odstr谩ni钮',
+        removeTitle: 'Vy膷isti钮 vybrat茅 s煤bory',
+        cancelLabel: 'Storno',
+        cancelTitle: 'Preru拧i钮  nahr谩vanie',
+        uploadLabel: 'Nahra钮',
+        uploadTitle: 'Nahra钮 vybrat茅 s煤bory',
+        msgNo: 'Nie',
+        msgNoFilesSelected: '',
+        msgCancelled: 'Zru拧en茅',
+        msgZoomModalHeading: 'Detailn媒 n谩h木ad',
+        msgSizeTooSmall: 'File "{name}" (<b>{size} KB</b>) is too small and must be larger than <b>{minSize} KB</b>.',
+        msgSizeTooLarge: 'S煤bor "{name}" (<b>{size} KB</b>): prekro膷enie - maxim谩lna povolen谩 ve木kos钮 <b>{maxSize} KB</b>.',
+        msgFilesTooLess: 'Mus铆te vybra钮 najmenej <b>{n}</b> {files} pre nahranie.',
+        msgFilesTooMany: 'Po膷et vybrat媒ch s煤borov pre nahranie <b>({n})</b>: prekro膷enie - maxim谩lny povolen媒 limit <b>{m}</b>.',
+        msgFileNotFound: 'S煤bor "{name}" nebol n谩jden媒!',
+        msgFileSecured: 'Zabezpe膷enie s煤boru znemo啪nilo 膷铆ta钮 s煤bor "{name}".',
+        msgFileNotReadable: 'S煤bor "{name}" nie je 膷itate木n媒.',
+        msgFilePreviewAborted: 'N谩h木ad s煤boru bol preru拧en媒 pre "{name}".',
+        msgFilePreviewError: 'Nastala chyba pri na膷铆tan铆 s煤boru "{name}".',
+        msgInvalidFileName: 'Invalid or unsupported characters in file name "{name}".',
+        msgInvalidFileType: 'Neplatn媒 typ s煤boru "{name}". Iba "{types}" s煤borov s煤 podporovan茅.',
+        msgInvalidFileExtension: 'Neplatn谩 extenzia s煤boru "{name}". Iba "{extensions}" s煤borov s煤 podporovan茅.',
+        msgFileTypes: {
+            'image': 'image',
+            'html': 'HTML',
+            'text': 'text',
+            'video': 'video',
+            'audio': 'audio',
+            'flash': 'flash',
+            'pdf': 'PDF',
+            'object': 'object'
+        },
+        msgUploadAborted: 'S煤bor nahr谩vania bol preru拧en媒',
+        msgUploadThreshold: 'Processing...',
+        msgUploadBegin: 'Initializing...',
+        msgUploadEnd: 'Done',
+        msgUploadEmpty: 'No valid data available for upload.',
+        msgValidationError: 'Chyba overenia',
+        msgLoading: 'Nahr谩vanie s煤boru {index} z {files} &hellip;',
+        msgProgress: 'Nahr谩vanie s煤boru {index} z {files} - {name} - {percent}% dokon膷en茅.',
+        msgSelected: '{n} {files} vybrat茅',
+        msgFoldersNotAllowed: 'Tiahni a pus钮 iba s煤bory! Vynechan茅 {n} pusten茅 pre膷inok(y).',
+        msgImageWidthSmall: '艩铆rka image s煤boru "{name}", mus铆 by钮 minim谩lne {size} px.',
+        msgImageHeightSmall: 'V媒拧ka image s煤boru "{name}", mus铆 by钮 minim谩lne {size} px.',
+        msgImageWidthLarge: '艩铆rka image s煤boru "{name}" nem么啪e presiahnu钮 {size} px.',
+        msgImageHeightLarge: 'V媒拧ka s煤boru obrazu "{name}" nesmie presiahnu钮 {size} px.',
+        msgImageResizeError: 'Nemo啪no z铆ska钮 rozmery obr谩zku zmeni钮 ve木kos钮.',
+        msgImageResizeException: 'Chyba pri zmene ve木kosti obr谩zka.<pre>{errors}</pre>',
+        msgAjaxError: 'Something went wrong with the {operation} operation. Please try again later!',
+        msgAjaxProgressError: '{operation} failed',
+        ajaxOperations: {
+            deleteThumb: 'file delete',
+            uploadThumb: 'file upload',
+            uploadBatch: 'batch file upload',
+            uploadExtra: 'form data upload'
+        },
+        dropZoneTitle: 'Tiahni a pus钮 s煤bory tu &hellip;',
+        dropZoneClickTitle: '<br>(or click to select {files})',
+        fileActionSettings: {
+            removeTitle: 'odstr谩ni钮 s煤bor',
+            uploadTitle: 'nahra钮 s煤bor',
+            zoomTitle: 'Zobrazi钮 podrobnosti',
+            dragTitle: 'Move / Rearrange',
+            indicatorNewTitle: 'E拧te nenahral',
+            indicatorSuccessTitle: 'nahral',
+            indicatorErrorTitle: 'nahra钮 Chyba',
+            indicatorLoadingTitle: 'nahr谩vanie ...'
+        },
+        previewZoomButtonTitles: {
+            prev: 'View previous file',
+            next: 'View next file',
+            toggleheader: 'Toggle header',
+            fullscreen: 'Toggle full screen',
+            borderless: 'Toggle borderless mode',
+            close: 'Close detailed preview'
+        }
+    };
+})(window.jQuery);

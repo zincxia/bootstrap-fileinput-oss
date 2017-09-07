@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="./plugin/bootstrap-3.3.0/css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="./plugin/fileinput/css/fileinput.css"/>
+    <link rel="stylesheet" type="text/css" href="./plugin/fileinput/themes/explorer/theme.css"/>
+    <script type="text/javascript" src="./plugin/jquery-3.1.1/jquery-3.1.1.js"></script>
+    <script type="text/javascript" src="./plugin/fileinput/js/fileinput.js"></script>
+    <script type="text/javascript" src="./plugin/bootstrap-3.3.0/js/bootstrap.js"></script>
+    <script type="text/javascript" src="./plugin/fileinput/themes/explorer/theme.js"></script>
+
+    <script type="text/javascript" src="./js/upload.js"></script>
+</head>
+<body class="container">
+<div class="row">
+    <div class="form-input" style="margin-top: 20%;">
+        <input id="file-1" type="file" name="file">
+    </div>
+    <img src="" id="img" alt="">
+</div>
+</body>
+<script>
+    get_signature();
+    $("#file-1").fileinput({
+        uploadUrl: host, // you must set a valid URL here else you will get an error
+        allowedFileExtensions: ['doc', 'docx', 'jpg', 'xls', 'xlsx'],
+        overwriteInitial: false,
+        maxFileSize: 1000,
+        maxFilesNum: 10,
+        fileType: "any",
+        enctype: 'multipart/form-data',
+        uploadExtraData: function () {      //配置阿里云oss参数
+            var f = document.getElementById('file-1');
+            var img = document.getElementById('img');
+            if (f.files[0] != undefined) {
+                var fileName = f.files[0]['name'];
+                var dir = key + fileName;       //拼接上传文件路径
+                img.setAttribute("src","http://qihancloud-download.oss-cn-shenzhen.aliyuncs.com/download/test/"+fileName);
+                return {
+                    key: dir,
+                    policy: policyBase64,
+                    OSSAccessKeyId: accessid,
+                    signature: signature,
+                    success_action_status: '204', //oss服务器返回200，201返回参数为空，fileinput会自动报错，返回204则不会报错
+//                callback : callbackbody
+                };
+            }
+        }
+    });
+    $("#file-1").on('filepreupload', function (event, data, previewId, index) {
+    });
+    $("#file-1").on("fileuploaded", function (event, data, previewId, index) {
+        console.log('fileuploaded               start');
+        console.dir(data);
+        console.log('fileuploaded               end');
+    });
+    $("#file-1").on('fileuploaderror', function (event, data, msg) {
+    });
+</script>
+</html>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="abbb7876-6737-481e-9879-ef6667a6cd23" name="oss" url="http://10.10.19.200">
+        <fileTransfer host="10.10.19.200" port="22" rootFolder="/var/www/html/oss" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

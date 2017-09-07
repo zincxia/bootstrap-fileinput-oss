@@ -1,0 +1,95 @@
+/*!
+ * FileInput Turkish Translations
+ *
+ * This file must be loaded after 'fileinput.js'. Patterns in braces '{}', or
+ * any HTML markup tags in the messages must not be converted or translated.
+ *
+ * @see http://github.com/kartik-v/bootstrap-fileinput
+ *
+ * NOTE: this file must be saved in UTF-8 encoding.
+ */
+(function ($) {
+    "use strict";
+
+    $.fn.fileinputLocales['tr'] = {
+        fileSingle: 'dosya',
+        filePlural: 'dosyalar',
+        browseLabel: 'G枚zat &hellip;',
+        removeLabel: 'Sil',
+        removeTitle: 'Se莽ilen dosyalar谋 sil',
+        cancelLabel: '陌ptal',
+        cancelTitle: 'Devam eden y眉klemeyi iptal et',
+        uploadLabel: 'Y眉kle',
+        uploadTitle: 'Se莽ilen dosyalar谋 y眉kle',
+        msgNo: 'Hay谋r',
+        msgNoFilesSelected: '',
+        msgCancelled: 'Iptal edildi',
+        msgZoomModalHeading: 'Detayl谋 脰nizleme',
+        msgSizeTooSmall: 'File "{name}" (<b>{size} KB</b>) is too small and must be larger than <b>{minSize} KB</b>.',
+        msgSizeTooLarge: '"{name}" dosyas谋n谋n boyutu (<b>{size} KB</b>) izin verilen azami dosya boyutu olan <b>{maxSize} KB</b>\'tan b眉y眉k.',
+        msgFilesTooLess: 'Y眉klemek i莽in en az <b>{n}</b> {files} dosya se莽melisiniz.',
+        msgFilesTooMany: 'Y眉klemek i莽in se莽ti臒iniz dosya say谋s谋 <b>({n})</b> azami limitin <b>({m})</b> alt谋nda olmal谋d谋r.',
+        msgFileNotFound: '"{name}" dosyas谋 bulunamad谋!',
+        msgFileSecured: 'G眉venlik k谋s谋tlamalar谋 "{name}" dosyas谋n谋n okunmas谋n谋 engelliyor.',
+        msgFileNotReadable: '"{name}" dosyas谋 okunabilir de臒il.',
+        msgFilePreviewAborted: '"{name}" dosyas谋 i莽in 枚nizleme iptal edildi.',
+        msgFilePreviewError: '"{name}" dosyas谋 okunurken bir hata olu艧tu.',
+        msgInvalidFileName: 'Invalid or unsupported characters in file name "{name}".',
+        msgInvalidFileType: '"{name}" dosyas谋n谋n t眉r眉 ge莽erli de臒il. Yaln谋zca "{types}" t眉r眉nde dosyalara izin veriliyor.',
+        msgInvalidFileExtension: '"{name}" dosyas谋n谋n uzant谋s谋 ge莽ersiz. Yaln谋zca "{extensions}" uzant谋l谋 dosyalara izin veriliyor.',
+        msgFileTypes: {
+            'image': 'image',
+            'html': 'HTML',
+            'text': 'text',
+            'video': 'video',
+            'audio': 'audio',
+            'flash': 'flash',
+            'pdf': 'PDF',
+            'object': 'object'
+        },
+        msgUploadAborted: 'Dosya y眉kleme iptal edildi',
+        msgUploadThreshold: 'Processing...',
+        msgUploadBegin: 'Initializing...',
+        msgUploadEnd: 'Done',
+        msgUploadEmpty: 'No valid data available for upload.',
+        msgValidationError: 'Do臒rulama Hatas谋',
+        msgLoading: 'Dosya y眉kleniyor {index} / {files} &hellip;',
+        msgProgress: 'Dosya y眉kleniyor {index} / {files} - {name} - %{percent} tamamland谋.',
+        msgSelected: '{n} {files} se莽ildi',
+        msgFoldersNotAllowed: 'Yaln谋zca dosyalar谋 s眉r眉kleyip b谋rakabilirsiniz! {n} dizin(ler) g枚z ard谋 edildi.',
+        msgImageWidthSmall: '"{name}" adl谋 g枚r眉nt眉 dosyas谋n谋n geni艧li臒i en az {size} piksel olmal谋d谋r.',
+        msgImageHeightSmall: '"{name}" adl谋 g枚r眉nt眉 dosyas谋n谋n y眉ksekli臒i en az {size} piksel olmal谋d谋r.',
+        msgImageWidthLarge: '"{name}" adl谋 g枚r眉nt眉 dosyas谋n谋n geni艧li臒i {size} pikseli ge莽emez.',
+        msgImageHeightLarge: '"{name}" adl谋 g枚r眉nt眉 dosyas谋n谋n y眉ksekli臒i {size} pikseli ge莽emez.',
+        msgImageResizeError: 'G枚r眉nt眉 boyutlar谋n谋 yeniden boyutland谋rmak i莽in al谋namad谋.',
+        msgImageResizeException: 'G枚rsel boyutland谋rma s谋ras谋nda hata.<pre>{errors}</pre>',
+        msgAjaxError: 'Something went wrong with the {operation} operation. Please try again later!',
+        msgAjaxProgressError: '{operation} failed',
+        ajaxOperations: {
+            deleteThumb: 'file delete',
+            uploadThumb: 'file upload',
+            uploadBatch: 'batch file upload',
+            uploadExtra: 'form data upload'
+        },
+        dropZoneTitle: 'Dosyalar谋 buraya s眉r眉kleyip b谋rak谋n &hellip;',
+        dropZoneClickTitle: '<br>(ya da {files} se莽mek i莽in t谋klay谋n谋z)',
+        fileActionSettings: {
+            removeTitle: 'Dosyay谋 kald谋r',
+            uploadTitle: 'Dosyay谋 y眉kle',
+            zoomTitle: 'Ayr谋nt谋lar谋 g枚r眉nt眉le',
+            dragTitle: 'Ta艧谋 / Yeniden d眉zenle',
+            indicatorNewTitle: 'Hen眉z y眉klenemedi',
+            indicatorSuccessTitle: 'Y眉klendi',
+            indicatorErrorTitle: 'Y眉kleme Hatas谋',
+            indicatorLoadingTitle: 'Y眉kleniyor ...'
+        },
+        previewZoomButtonTitles: {
+            prev: '脰nceki dosyay谋 g枚r眉nt眉le',
+            next: 'Sonraki dosyay谋 g枚r眉nt眉le',
+            toggleheader: 'Ba艧l谋k ge莽i艧',
+            fullscreen: 'Tam ekran ge莽i艧',
+            borderless: '脟er莽evesiz moda ge莽i艧',
+            close: 'Detayl谋 枚nizlemeyi kapat'
+        }
+    };
+})(window.jQuery);

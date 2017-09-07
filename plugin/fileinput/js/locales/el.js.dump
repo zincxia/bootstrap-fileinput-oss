@@ -1,0 +1,95 @@
+/*!
+ * FileInput Greek Translations
+ *
+ * This file must be loaded after 'fileinput.js'. Patterns in braces '{}', or
+ * any HTML markup tags in the messages must not be converted or translated.
+ *
+ * @see http://github.com/kartik-v/bootstrap-fileinput
+ *
+ * NOTE: this file must be saved in UTF-8 encoding.
+ */
+(function ($) {
+    "use strict";
+
+    $.fn.fileinputLocales['el'] = {
+        fileSingle: '伪蟻蠂蔚委慰',
+        filePlural: '伪蟻蠂蔚委伪',
+        browseLabel: '螒谓伪味萎蟿畏蟽畏 &hellip;',
+        removeLabel: '螖喂伪纬蟻伪蠁萎',
+        removeTitle: '螘魏魏伪胃维蟻喂蟽畏 伪蟻蠂蔚委蠅谓',
+        cancelLabel: '螒魏蠉蟻蠅蟽畏',
+        cancelTitle: '螒魏蠉蟻蠅蟽畏 渭蔚蟿伪蠁蠈蟻蟿蠅蟽畏蟼',
+        uploadLabel: '螠蔚蟿伪蠁蠈蟻蟿蠅蟽畏',
+        uploadTitle: '螠蔚蟿伪蠁蠈蟻蟿蠅蟽畏 蔚蟺喂位蔚纬渭苇谓蠅谓 伪蟻蠂蔚委蠅谓',
+        msgNo: '螌蠂喂',
+        msgNoFilesSelected: '螖蔚谓 蔚蟺喂位苇蠂胃畏魏伪谓 伪蟻蠂蔚委伪',
+        msgCancelled: '螒魏蠀蟻蠋胃畏魏蔚',
+        msgZoomModalHeading: '螞蔚蟺蟿慰渭蔚蟻萎蟼 螤蟻慰蔚蟺喂蟽魏蠈蟺畏蟽畏',
+        msgSizeTooSmall: '韦慰 "{name}" (<b>{size} KB</b>) 蔚委谓伪喂 蟺慰位蠉 渭喂魏蟻蠈, 蟺蟻苇蟺蔚喂 谓伪 蔚委谓伪喂 渭蔚纬伪位蠉蟿蔚蟻慰 伪蟺蠈 <b>{minSize} KB</b>.',
+        msgSizeTooLarge: '韦慰 伪蟻蠂蔚委慰 "{name}" (<b>{size} KB</b>) 蠀蟺蔚蟻尾伪委谓蔚喂 蟿慰 渭苇纬喂蟽蟿慰 蔚蟺喂蟿蟻蔚蟺蠈渭蔚谓慰 渭苇纬蔚胃慰蟼 渭蔚蟿伪蠁蠈蟻蟿蠅蟽畏蟼 <b>{maxSize} KB</b>.',
+        msgFilesTooLess: '螤蟻苇蟺蔚喂 谓伪 蔚蟺喂位苇尉蔚蟿蔚 蟿慰蠀位维蠂喂蟽蟿慰谓 <b>{n}</b> {files} 纬喂伪 谓伪 尉蔚魏喂谓萎蟽蔚喂 畏 渭蔚蟿伪蠁蠈蟻蟿蠅蟽畏.',
+        msgFilesTooMany: '螣 伪蟻喂胃渭蠈蟼 蟿蠅谓 伪蟻蠂蔚委蠅谓 蟺慰蠀 苇蠂慰蠀谓 蔚蟺喂位蔚纬蔚委 纬喂伪 渭蔚蟿伪蠁蠈蟻蟿蠅蟽畏 <b>({n})</b> 蠀蟺蔚蟻尾伪委谓蔚喂 蟿慰 渭苇纬喂蟽蟿慰 蔚蟺喂蟿蟻蔚蟺蠈渭蔚谓慰 伪蟻喂胃渭蠈 <b>{m}</b>.',
+        msgFileNotFound: '韦慰 伪蟻蠂蔚委慰 "{name}" 未蔚谓 尾蟻苇胃畏魏蔚!',
+        msgFileSecured: '螤蔚蟻喂慰蟻喂蟽渭慰委 伪蟽蠁伪位蔚委伪蟼 蔚渭蟺蠈未喂蟽伪谓 蟿畏谓 伪谓维纬谓蠅蟽畏 蟿慰蠀 伪蟻蠂蔚委慰蠀 "{name}".',
+        msgFileNotReadable: '韦慰 伪蟻蠂蔚委慰 "{name}" 未蔚谓 蔚委谓伪喂 伪谓伪纬谓蠋蟽喂渭慰.',
+        msgFilePreviewAborted: '螚 蟺蟻慰蔚蟺喂蟽魏蠈蟺畏蟽畏 蟿慰蠀 伪蟻蠂蔚委慰蠀 "{name}" 伪魏蠀蟻蠋胃畏魏蔚.',
+        msgFilePreviewError: '螤伪蟻慰蠀蟽喂维蟽蟿畏魏蔚 蟽蠁维位渭伪 魏伪蟿维 蟿畏谓 伪谓维纬谓蠅蟽畏 蟿慰蠀 伪蟻蠂蔚委慰蠀 "{name}".',
+        msgInvalidFileName: '螠畏 苇纬魏蠀蟻慰喂 蠂伪蟻伪魏蟿萎蟻蔚蟼 蟽蟿慰 蠈谓慰渭伪 蟿慰蠀 伪蟻蠂蔚委慰蠀 "{name}".',
+        msgInvalidFileType: '螠畏 苇纬魏蠀蟻慰蟼 慰 蟿蠉蟺慰蟼 蟿慰蠀 伪蟻蠂蔚委慰蠀 "{name}". 螣喂 蟿蠉蟺慰喂 伪蟻蠂蔚委蠅谓 蟺慰蠀 蠀蟺慰蟽蟿畏蟻委味慰谓蟿伪喂 蔚委谓伪喂 : "{types}".',
+        msgInvalidFileExtension: '螠畏 苇纬魏蠀蟻畏 畏 蔚蟺苇魏蟿伪蟽畏 蟿慰蠀 伪蟻蠂蔚委慰蠀 "{name}". 螣喂 蔚蟺蔚魏蟿维蟽蔚喂蟼 蟺慰蠀 蠀蟺慰蟽蟿畏蟻委味慰谓蟿伪喂 蔚委谓伪喂 : "{extensions}".',
+        msgFileTypes: {
+            'image': 'image',
+            'html': 'HTML',
+            'text': 'text',
+            'video': 'video',
+            'audio': 'audio',
+            'flash': 'flash',
+            'pdf': 'PDF',
+            'object': 'object'
+        },
+        msgUploadAborted: '螚 渭蔚蟿伪蠁蠈蟻蟿蠅蟽畏 蟿慰蠀 伪蟻蠂蔚委慰蠀 渭伪蟿伪喂蠋胃畏魏蔚',
+        msgUploadThreshold: '螠蔚蟿伪蠁蠈蟻蟿蠅蟽畏 ...',
+        msgUploadBegin: 'Initializing...',
+        msgUploadEnd: 'Done',
+        msgUploadEmpty: 'No valid data available for upload.',
+        msgValidationError: '危蠁维位渭伪 螘蟺喂魏蠉蟻蠅蟽畏蟼',
+        msgLoading: '桅蠈蟻蟿蠅蟽畏 伪蟻蠂蔚委慰蠀 {index} 伪蟺蠈 {files} &hellip;',
+        msgProgress: '桅蠈蟻蟿蠅蟽畏 伪蟻蠂蔚委慰蠀 {index} 伪蟺慰 {files} - {name} - {percent}% 慰位慰魏位畏蟻蠋胃畏魏蔚.',
+        msgSelected: '{n} {files} 蔚蟺喂位苇蠂胃畏魏伪谓',
+        msgFoldersNotAllowed: '螠蟺慰蟻蔚委蟿蔚 谓伪 蟽蠉蟻蔚蟿蔚 渭蠈谓慰 伪蟻蠂蔚委伪! 螤伪蟻伪尾位苇蠁胃畏魏伪谓 {n} 蠁维魏蔚位慰蟼(慰喂).',
+        msgImageWidthSmall: '韦慰 蟺位维蟿慰蟼 蟿慰蠀 伪蟻蠂蔚委慰蠀 蔚喂魏蠈谓伪蟼 "{name}" 蟺蟻苇蟺蔚喂 谓伪 蔚委谓伪喂 蟿慰蠀位维蠂喂蟽蟿慰谓 {size} px.',
+        msgImageHeightSmall: '韦慰 蠉蠄慰蟼 蟿慰蠀 伪蟻蠂蔚委慰蠀 蔚喂魏蠈谓伪蟼 "{name}" 蟺蟻苇蟺蔚喂 谓伪 蔚委谓伪喂 蟿慰蠀位维蠂喂蟽蟿慰谓 {size} px.',
+        msgImageWidthLarge: '韦慰 蟺位维蟿慰蟼 蟿慰蠀 伪蟻蠂蔚委慰蠀 蔚喂魏蠈谓伪蟼 "{name}" 未蔚谓 渭蟺慰蟻蔚委 谓伪 蠀蟺蔚蟻尾伪委谓蔚喂 蟿慰 {size} px.',
+        msgImageHeightLarge: '韦慰 蠉蠄慰蟼 蟿慰蠀 伪蟻蠂蔚委慰蠀 蔚喂魏蠈谓伪蟼 "{name}" 未蔚谓 渭蟺慰蟻蔚委 谓伪 蠀蟺蔚蟻尾伪委谓蔚喂 蟿慰 {size} px.',
+        msgImageResizeError: '螖蔚谓 渭蟺慰蟻慰蠉谓 谓伪 尾蟻蔚胃慰蠉谓 慰喂 未喂伪蟽蟿维蟽蔚喂蟼 蟿畏蟼 蔚喂魏蠈谓伪蟼 纬喂伪 谓伪 伪位位维纬萎 渭蔚纬苇胃慰蠀蟼.',
+        msgImageResizeException: '危蠁维位渭伪 魏伪蟿维 蟿畏谓 伪位位伪纬萎 渭蔚纬苇胃慰蠀蟼 蟿畏蟼 蔚喂魏蠈谓伪蟼. <pre>{errors}</pre>',
+        msgAjaxError: 'Something went wrong with the {operation} operation. Please try again later!',
+        msgAjaxProgressError: '{operation} failed',
+        ajaxOperations: {
+            deleteThumb: 'file delete',
+            uploadThumb: 'file upload',
+            uploadBatch: 'batch file upload',
+            uploadExtra: 'form data upload'
+        },
+        dropZoneTitle: '危蠉蟻蔚蟿蔚 蟿伪 伪蟻蠂蔚委伪 蔚未蠋 &hellip;',
+        dropZoneClickTitle: '<br>(萎 蟺伪蟿萎蟽蟿蔚 纬喂伪 蔚蟺喂位慰纬萎 {files})',
+        fileActionSettings: {
+            removeTitle: '螒蠁伪喂蟻苇蟽蟿蔚 蟿慰 伪蟻蠂蔚委慰',
+            uploadTitle: '螠蔚蟿伪蠁慰蟻蟿蠋蟽蟿蔚 蟿慰 伪蟻蠂蔚委慰',
+            zoomTitle: '螖蔚委蟿蔚 位蔚蟺蟿慰渭苇蟻蔚喂蔚蟼',
+            dragTitle: '螠蔚蟿伪魏委谓畏蟽畏/螤蟻慰蟽蟺伪蟻渭慰纬萎',
+            indicatorNewTitle: '螖蔚谓 渭蔚蟿伪蠁慰蟻蟿蠋胃畏魏蔚 伪魏蠈渭伪',
+            indicatorSuccessTitle: '螠蔚蟿伪蠁慰蟻蟿蠋胃畏魏蔚',
+            indicatorErrorTitle: '危蠁维位渭伪 螠蔚蟿伪蠁蠈蟻蟿蠅蟽畏蟼',
+            indicatorLoadingTitle: '螠蔚蟿伪蠁蠈蟻蟿蠅蟽畏 ...'
+        },
+        previewZoomButtonTitles: {
+            prev: '螤蟻慰畏纬慰蠉渭蔚谓慰 伪蟻蠂蔚委慰',
+            next: '螘蟺蠈渭蔚谓慰 伪蟻蠂蔚委慰',
+            toggleheader: '螘渭蠁维谓喂蟽畏/螒蟺蠈魏蟻蠀蠄畏 蟿委蟿位慰蠀',
+            fullscreen: '螘谓伪位位伪纬萎 蟺位萎蟻慰蠀蟼 慰胃蠈谓畏蟼',
+            borderless: '螠蔚 萎 蠂蠅蟻委蟼 蟺位伪委蟽喂慰',
+            close: '螝位蔚委蟽喂渭慰 蟺蟻慰尾慰位萎蟼'
+        }
+    };
+})(window.jQuery);

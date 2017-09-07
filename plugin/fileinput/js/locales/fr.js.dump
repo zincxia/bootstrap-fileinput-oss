@@ -1,0 +1,95 @@
+/*!
+ * FileInput French Translations
+ *
+ * This file must be loaded after 'fileinput.js'. Patterns in braces '{}', or
+ * any HTML markup tags in the messages must not be converted or translated.
+ *
+ * @see http://github.com/kartik-v/bootstrap-fileinput
+ *
+ * NOTE: this file must be saved in UTF-8 encoding.
+ */
+(function ($) {
+    "use strict";
+
+    $.fn.fileinputLocales['fr'] = {
+        fileSingle: 'fichier',
+        filePlural: 'fichiers',
+        browseLabel: 'Parcourir&hellip;',
+        removeLabel: 'Retirer',
+        removeTitle: 'Retirer les fichiers s茅lectionn茅s',
+        cancelLabel: 'Annuler',
+        cancelTitle: "Annuler l'envoi en cours",
+        uploadLabel: 'Transf茅rer',
+        uploadTitle: 'Transf茅rer les fichiers s茅lectionn茅s',
+        msgNo: 'Non',
+        msgNoFilesSelected: '',
+        msgCancelled: 'Annul茅',
+        msgZoomModalHeading: 'Aper莽u d茅taill茅',
+        msgSizeTooSmall: 'File "{name}" (<b>{size} KB</b>) is too small and must be larger than <b>{minSize} KB</b>.',
+        msgSizeTooLarge: 'Le fichier "{name}" (<b>{size} Ko</b>) d茅passe la taille maximale autoris茅e qui est de <b>{maxSize} Ko</b>.',
+        msgFilesTooLess: 'Vous devez s茅lectionner au moins <b>{n}</b> {files} 脿 transmettre.',
+        msgFilesTooMany: 'Le nombre de fichier s茅lectionn茅 <b>({n})</b> d茅passe la quantit茅 maximale autoris茅e qui est de <b>{m}</b>.',
+        msgFileNotFound: 'Le fichier "{name}" est introuvable !',
+        msgFileSecured: "Des restrictions de s茅curit茅 vous emp锚chent d'acc茅der au fichier \"{name}\".",
+        msgFileNotReadable: 'Le fichier "{name}" est illisble.',
+        msgFilePreviewAborted: 'Pr茅visualisation du fichier "{name}" annul茅e.',
+        msgFilePreviewError: 'Une erreur est survenue lors de la lecture du fichier "{name}".',
+        msgInvalidFileName: 'Invalid or unsupported characters in file name "{name}".',
+        msgInvalidFileType: 'Type de document invalide pour "{name}". Seulement les documents de type "{types}" sont autoris茅s.',
+        msgInvalidFileExtension: 'Extension invalide pour le fichier "{name}". Seules les extensions "{extensions}" sont autoris茅es.',
+        msgFileTypes: {
+            'image': 'image',
+            'html': 'HTML',
+            'text': 'text',
+            'video': 'video',
+            'audio': 'audio',
+            'flash': 'flash',
+            'pdf': 'PDF',
+            'object': 'object'
+        },
+        msgUploadAborted: 'Le t茅l茅chargement du fichier a 茅t茅 interrompu',
+        msgUploadThreshold: 'Processing...',
+        msgUploadBegin: 'Initializing...',
+        msgUploadEnd: 'Done',
+        msgUploadEmpty: 'No valid data available for upload.',
+        msgValidationError: 'Erreur de validation',
+        msgLoading: 'Transmission du fichier {index} sur {files}&hellip;',
+        msgProgress: 'Transmission du fichier {index} sur {files} - {name} - {percent}% faits.',
+        msgSelected: '{n} {files} s茅lectionn茅(s)',
+        msgFoldersNotAllowed: 'Glissez et d茅posez uniquement des fichiers ! {n} r茅pertoire(s) exclu(s).',
+        msgImageWidthSmall: 'Largeur de fichier image "{name}" doit 锚tre d\'au moins {size} px.',
+        msgImageHeightSmall: 'Hauteur de fichier image "{name}" doit 锚tre d\'au moins {size} px.',
+        msgImageWidthLarge: 'Largeur de fichier image "{name}" ne peut pas d茅passer {size} px.',
+        msgImageHeightLarge: 'Hauteur de fichier image "{name}" ne peut pas d茅passer {size} px.',
+        msgImageResizeError: "Impossible d'obtenir les dimensions de l'image 脿 redimensionner.",
+        msgImageResizeException: "Erreur lors du redimensionnement de l'image.<pre>{errors}</pre>",
+        msgAjaxError: 'Something went wrong with the {operation} operation. Please try again later!',
+        msgAjaxProgressError: '{operation} failed',
+        ajaxOperations: {
+            deleteThumb: 'file delete',
+            uploadThumb: 'file upload',
+            uploadBatch: 'batch file upload',
+            uploadExtra: 'form data upload'
+        },
+        dropZoneTitle: 'Glissez et d茅posez les fichiers ici&hellip;',
+        dropZoneClickTitle: '<br>(or click to select {files})',
+        fileActionSettings: {
+            removeTitle: 'Supprimer le fichier',
+            uploadTitle: 'T茅l茅charger un fichier',
+            zoomTitle: 'Voir les d茅tails',
+            dragTitle: 'Move / Rearrange',
+            indicatorNewTitle: 'Pas encore t茅l茅charg茅',
+            indicatorSuccessTitle: 'Post茅',
+            indicatorErrorTitle: 'Ajouter erreur',
+            indicatorLoadingTitle: 'ajout ...'
+        },
+        previewZoomButtonTitles: {
+            prev: 'View previous file',
+            next: 'View next file',
+            toggleheader: 'Toggle header',
+            fullscreen: 'Toggle full screen',
+            borderless: 'Toggle borderless mode',
+            close: 'Close detailed preview'
+        }
+    };
+})(window.jQuery);

@@ -1,0 +1,93 @@
+/*!
+ * FileInput German Translations
+ *
+ * This file must be loaded after 'fileinput.js'. Patterns in braces '{}', or
+ * any HTML markup tags in the messages must not be converted or translated.
+ *
+ * @see http://github.com/kartik-v/bootstrap-fileinput
+ */
+(function ($) {
+    "use strict";
+
+    $.fn.fileinputLocales['de'] = {
+        fileSingle: 'Datei',
+        filePlural: 'Dateien',
+        browseLabel: 'Ausw盲hlen &hellip;',
+        removeLabel: 'L枚schen',
+        removeTitle: 'Ausgew盲hlte l枚schen',
+        cancelLabel: 'Laden',
+        cancelTitle: 'Hochladen abbrechen',
+        uploadLabel: 'Hochladen',
+        uploadTitle: 'Hochladen der ausgew盲hlten Dateien',
+        msgNo: 'Keine',
+        msgNoFilesSelected: 'Keine Dateien ausgew盲hlt',
+        msgCancelled: 'Abgebrochen',
+        msgZoomModalHeading: 'ausf眉hrliche Vorschau',
+        msgSizeTooSmall: 'File "{name}" (<b>{size} KB</b>) is too small and must be larger than <b>{minSize} KB</b>.',
+        msgSizeTooLarge: 'Datei "{name}" (<b>{size} KB</b>) 眉berschreitet maximal zul盲ssige Upload-Gr枚脽e von <b>{maxSize} KB</b>.',
+        msgFilesTooLess: 'Sie m眉ssen mindestens <b>{n}</b> {files} zum Hochladen ausw盲hlen.',
+        msgFilesTooMany: 'Anzahl der Dateien f眉r den Upload ausgew盲hlt <b>({n})</b> 眉berschreitet maximal zul盲ssige Grenze von <b>{m}</b> St眉ck.',
+        msgFileNotFound: 'Datei "{name}" wurde nicht gefunden!',
+        msgFileSecured: 'Sicherheitseinstellungen verhindern das Lesen der Datei "{name}".',
+        msgFileNotReadable: 'Die Datei "{name}" ist nicht lesbar.',
+        msgFilePreviewAborted: 'Dateivorschau abgebrochen f眉r "{name}".',
+        msgFilePreviewError: 'Beim Lesen der Datei "{name}" ein Fehler aufgetreten.',
+        msgInvalidFileName: 'Invalid or unsupported characters in file name "{name}".',
+        msgInvalidFileType: 'Ung眉ltiger Typ f眉r Datei "{name}". Nur Dateien der Typen "{types}" werden unterst眉tzt.',
+        msgInvalidFileExtension: 'Ung眉ltige Erweiterung f眉r Datei "{name}". Nur Dateien mit der Endung "{extensions}" werden unterst眉tzt.',
+        msgFileTypes: {
+            'image': 'image',
+            'html': 'HTML',
+            'text': 'text',
+            'video': 'video',
+            'audio': 'audio',
+            'flash': 'flash',
+            'pdf': 'PDF',
+            'object': 'object'
+        },
+        msgUploadAborted: 'Der Datei-Upload wurde abgebrochen',
+        msgUploadThreshold: 'Processing...',
+        msgUploadBegin: 'Initializing...',
+        msgUploadEnd: 'Done',
+        msgUploadEmpty: 'No valid data available for upload.',
+        msgValidationError: 'Validierungs fehler',
+        msgLoading: 'Lade Datei {index} von {files} hoch&hellip;',
+        msgProgress: 'Datei {index} von {files} - {name} - zu {percent}% fertiggestellt.',
+        msgSelected: '{n} {files} ausgew盲hlt',
+        msgFoldersNotAllowed: 'Drag & Drop funktioniert nur bei Dateien! {n} Ordner 眉bersprungen.',
+        msgImageWidthSmall: 'Breite der Bilddatei "{name}" muss mindestens {size} px betragen.',
+        msgImageHeightSmall: 'H枚he der Bilddatei "{name}" muss mindestens {size} px betragen.',
+        msgImageWidthLarge: 'Breite der Bilddatei "{name}" nicht 眉berschreiten {size} px.',
+        msgImageHeightLarge: 'H枚he der Bilddatei "{name}" nicht 眉berschreiten {size} px.',
+        msgImageResizeError: 'Konnte nicht die Bildabmessungen zu 盲ndern.',
+        msgImageResizeException: 'Fehler beim 脛ndern der Gr枚脽e des Bildes.<pre>{errors}</pre>',
+        msgAjaxError: 'Something went wrong with the {operation} operation. Please try again later!',
+        msgAjaxProgressError: '{operation} failed',
+        ajaxOperations: {
+            deleteThumb: 'file delete',
+            uploadThumb: 'file upload',
+            uploadBatch: 'batch file upload',
+            uploadExtra: 'form data upload'
+        },
+        dropZoneTitle: 'Dateien hierher ziehen &hellip;',
+        dropZoneClickTitle: '<br>(or click to select {files})',
+        fileActionSettings: {
+            removeTitle: 'Datei entfernen',
+            uploadTitle: 'Datei hochladen',
+            zoomTitle: 'Details anzeigen',
+            dragTitle: 'Move / Rearrange',
+            indicatorNewTitle: 'Noch nicht hochgeladen',
+            indicatorSuccessTitle: 'Hochgeladen',
+            indicatorErrorTitle: 'Upload Fehler',
+            indicatorLoadingTitle: 'Hochladen ...'
+        },
+        previewZoomButtonTitles: {
+            prev: 'View previous file',
+            next: 'View next file',
+            toggleheader: 'Toggle header',
+            fullscreen: 'Toggle full screen',
+            borderless: 'Toggle borderless mode',
+            close: 'Close detailed preview'
+        }
+    };
+})(window.jQuery);

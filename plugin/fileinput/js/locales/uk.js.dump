@@ -1,0 +1,96 @@
+/*!
+ * FileInput Ukrainian Translations
+ *
+ * This file must be loaded after 'fileinput.js'. Patterns in braces '{}', or
+ * any HTML markup tags in the messages must not be converted or translated.
+ *
+ * @see http://github.com/kartik-v/bootstrap-fileinput
+ * @author CyanoFresh <cyanofresh@gmail.com>
+ *
+ * NOTE: this file must be saved in UTF-8 encoding.
+ */
+(function ($) {
+    "use strict";
+
+    $.fn.fileinputLocales['uk'] = {
+        fileSingle: '褎邪泄谢',
+        filePlural: '褎邪泄谢懈',
+        browseLabel: '袙懈斜褉邪褌懈 &hellip;',
+        removeLabel: '袙懈写邪谢懈褌懈',
+        removeTitle: '袙懈写邪谢懈褌懈 胁懈斜褉邪薪褨 褎邪泄谢懈',
+        cancelLabel: '小泻邪褋褍胁邪褌懈',
+        cancelTitle: '小泻邪褋褍胁邪褌懈 锌芯褌芯褔薪褍 蟹邪谐褉褍蟹泻褍',
+        uploadLabel: '袟邪谐褉褍蟹懈褌懈',
+        uploadTitle: '袟邪谐褉褍蟹懈褌懈 胁懈斜褉邪薪褨 褎邪泄谢懈',
+        msgNo: '袧械屑邪褦',
+        msgNoFilesSelected: '',
+        msgCancelled: 'C泻邪褋芯胁邪薪芯',
+        msgZoomModalHeading: '袛械褌邪谢褜薪懈泄 锌褉械胁褜褞',
+        msgSizeTooSmall: 'File "{name}" (<b>{size} KB</b>) is too small and must be larger than <b>{minSize} KB</b>.',
+        msgSizeTooLarge: '肖邪泄谢 "{name}" (<b>{size} KB</b>) 锌械褉械胁懈褖褍褦 屑邪泻褋懈屑邪谢褜薪懈泄 褉芯蟹屑褨褉 <b>{maxSize} KB</b>.',
+        msgFilesTooLess: '袙懈 锌芯胁懈薪薪褨 胁懈斜褉邪褌懈 褟泻 屑褨薪褨屑褍屑 <b>{n}</b> {files} 写谢褟 蟹邪谐褉褍蟹泻懈.',
+        msgFilesTooMany: '袣褨谢褜泻褨褋褌褜 胁懈斜褉邪薪懈褏 褎邪泄谢褨胁 <b>({n})</b> 锌械褉械胁懈褖褍褦 屑邪泻褋懈屑邪谢褜薪芯 写芯锌褍褋褌懈屑褍 泻褨谢褜泻褨褋褌褜 <b>{m}</b>.',
+        msgFileNotFound: '肖邪泄谢 "{name}" 薪械 蟹薪邪泄写械薪芯!',
+        msgFileSecured: '袨斜屑械卸械薪薪褟 斜械蟹锌械泻懈 锌械褉械褕泻芯写卸邪褞褌褜 褔懈褌邪薪薪褞 褎邪泄谢邪 "{name}".',
+        msgFileNotReadable: '肖邪泄谢 "{name}" 薪械屑芯卸谢懈胁芯 锌褉芯褔懈褌邪褌懈.',
+        msgFilePreviewAborted: '袩械褉械谐谢褟写 褋泻邪褋芯胁邪薪懈泄 写谢褟 褎邪泄谢邪 "{name}".',
+        msgFilePreviewError: '小褌邪谢邪褋褟 锌芯屑懈谢泻邪 锌褨写 褔邪褋 褔懈褌邪薪薪褟 褎邪泄谢邪 "{name}".',
+        msgInvalidFileName: 'Invalid or unsupported characters in file name "{name}".',
+        msgInvalidFileType: '袟邪斜芯褉芯薪械薪懈泄 褌懈锌 褎邪泄谢邪 写谢褟 "{name}". 孝褨谢褜泻懈 "{types}" 写芯蟹胁芯谢械薪褨.',
+        msgInvalidFileExtension: '袟邪斜芯褉芯薪械薪械 褉芯蟹褕懈褉械薪薪褟 写谢褟 褎邪泄谢邪 "{name}". 孝褨谢褜泻懈 "{extensions}" 写芯蟹胁芯谢械薪褨.',
+        msgFileTypes: {
+            'image': 'image',
+            'html': 'HTML',
+            'text': 'text',
+            'video': 'video',
+            'audio': 'audio',
+            'flash': 'flash',
+            'pdf': 'PDF',
+            'object': 'object'
+        },
+        msgUploadAborted: '袙懈胁邪薪褌邪卸械薪薪褟 褎邪泄谢褍 锌械褉械褉胁邪薪邪',
+        msgUploadThreshold: 'Processing...',
+        msgUploadBegin: 'Initializing...',
+        msgUploadEnd: 'Done',
+        msgUploadEmpty: 'No valid data available for upload.',
+        msgValidationError: '袩芯屑懈谢泻邪 锌械褉械胁褨褉泻懈',
+        msgLoading: '袟邪谐褉褍蟹泻邪 褎邪泄谢邪 {index} 褨蟹 {files} &hellip;',
+        msgProgress: '袟邪谐褉褍蟹泻邪 褎邪泄谢邪 {index} 褨蟹 {files} - {name} - {percent}% 蟹邪胁械褉褕械薪芯.',
+        msgSelected: '{n} {files} 胁懈斜褉邪薪芯',
+        msgFoldersNotAllowed: '袛芯蟹胁芯谢械薪芯 锌械褉械褌褟谐褍胁邪褌懈 褌褨谢褜泻懈 褎邪泄谢懈! 袩褉芯锌褍褖械薪芯 {n} 锌邪锌芯泻.',
+        msgImageWidthSmall: '楔懈褉懈薪邪 蟹芯斜褉邪卸械薪薪褟 "{name}" 锌芯胁懈薪薪邪 斜褍褌懈 薪械 屑械薪褕械 {size} px.',
+        msgImageHeightSmall: '袙懈褋芯褌邪 蟹芯斜褉邪卸械薪薪褟 "{name}" 锌芯胁懈薪薪邪 斜褍褌懈 薪械 屑械薪褕械 {size} px.',
+        msgImageWidthLarge: '楔懈褉懈薪邪 蟹芯斜褉邪卸械薪薪褟 "{name}" 薪械 屑芯卸械 锌械褉械胁懈褖褍胁邪褌懈 {size} px.',
+        msgImageHeightLarge: '袙懈褋芯褌邪 蟹芯斜褉邪卸械薪薪褟 "{name}" 薪械 屑芯卸械 锌械褉械胁懈褖褍胁邪褌懈 {size} px.',
+        msgImageResizeError: '袧械 胁写邪谢芯褋褟 褉芯蟹屑褨褉懈 蟹芯斜褉邪卸械薪薪褟, 褖芯斜 蟹屑褨薪懈褌懈 褉芯蟹屑褨褉.',
+        msgImageResizeException: '袩芯屑懈谢泻邪 锌褉懈 蟹屑褨薪褨 褉芯蟹屑褨褉褍 蟹芯斜褉邪卸械薪薪褟.<pre>{errors}</pre>',
+        msgAjaxError: 'Something went wrong with the {operation} operation. Please try again later!',
+        msgAjaxProgressError: '{operation} failed',
+        ajaxOperations: {
+            deleteThumb: 'file delete',
+            uploadThumb: 'file upload',
+            uploadBatch: 'batch file upload',
+            uploadExtra: 'form data upload'
+        },
+        dropZoneTitle: '袩械褉械褌褟谐薪褨褌褜 褎邪泄谢懈 褋褞写懈 &hellip;',
+        dropZoneClickTitle: '<br>(or click to select {files})',
+        fileActionSettings: {
+            removeTitle: '袙懈写邪谢懈褌懈 褎邪泄谢',
+            uploadTitle: '袟邪谐褉褍蟹懈褌懈 褎邪泄谢',
+            zoomTitle: '袩芯写懈胁懈褌懈褋褟 写械褌邪谢褨',
+            dragTitle: 'Move / Rearrange',
+            indicatorNewTitle: '些械 薪械 蟹邪谐褉褍卸械薪芯',
+            indicatorSuccessTitle: '袟邪谐褉褍卸械薪芯',
+            indicatorErrorTitle: '袩芯屑懈谢泻邪 锌褉懈 蟹邪谐褉褍蟹褑褨',
+            indicatorLoadingTitle: '袟邪谐褉褍蟹泻邪 ...'
+        },
+        previewZoomButtonTitles: {
+            prev: 'View previous file',
+            next: 'View next file',
+            toggleheader: 'Toggle header',
+            fullscreen: 'Toggle full screen',
+            borderless: 'Toggle borderless mode',
+            close: 'Close detailed preview'
+        }
+    };
+})(window.jQuery);
